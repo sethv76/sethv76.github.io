@@ -18,7 +18,7 @@ function cookiesClick() {
 function checkClicks() {
 	switch(cookies) {
 		case 1:
-			addTicker("You're a cheaky little fucker aren't you.");
+			addTicker("You're a cheeky little fucker aren't you.");
 			break;
 
 		default:
@@ -30,7 +30,7 @@ function checkClicks() {
 
 function addTicker(tick) {
 	//adds to the ticker
-	if(ticker.length > 10){
+	if(ticker.length > 0){
 		ticker.pop();
 	}
 
