@@ -18,7 +18,7 @@ function cookiesClick() {
 function checkClicks() {
 	switch(cookies) {
 		case 1:
-			addTicker("You're a cheeky little fucker aren't you.");
+			addTicker("You're a cheeky little guy aren't you.");
 			break;
 
 		default:
